@@ -55,11 +55,11 @@ function init(){
 }
 
 function updateTransaction(){
-   const amounts = transactions.map((transaction)=>transaction.amount);
-   const total = amounts.reduce((acc,Item)=>(acc += Item), 0).toFixed(2);
+   const amounts = transactions.map((transaction)=>Number(transaction.amount));
+   const total = amounts.reduce((acc,Item)=>acc += Number(Item), 0).toFixed(2);
    
-   const income=amounts.filter((Item)=>Item>0).reduce((acc,Item)=>(acc += Item),0).toFixed(2);
-   const expense=(amounts.filter((Item)=>Item<0).reduce((acc,Item)=>(acc += Item),0) * -1).toFixed(2);
+   const income=amounts.filter(Item=>Number(Item)>0).reduce((acc,Item)=>acc += Number(Item),0).toFixed(2);
+   const expense=(amounts.filter(Item=>Number(Item)<0).reduce((acc,Item)=>acc += Number(Item),0) * -1).toFixed(2);
 
    
    balance.innerText=`$${total}`;
