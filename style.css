@@ -1,0 +1,135 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body{
+    background-color: #051926;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container{
+    background: white;
+    padding: 20px;
+    width: 400px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgb(108, 163, 189);
+}
+h1{
+    text-align: center;
+    margin-bottom: 10px;
+    
+}
+
+.balance{
+    text-align: center;
+    background-color:#2342db;
+    color: #f6f8fa;
+    border-radius: 8px;
+    padding-top: 5px;
+}
+
+.balance h1{
+    margin: 0;
+  font-style: 2.5rem;
+}
+
+.incomeExpense{
+    display: flex;
+    justify-content:space-between;
+    margin: 20px 0;
+}
+
+.income , .expense{
+    flex: 1;
+    text-align: center;
+}
+
+.money{
+    font-size: 1.5rem;
+    margin: 5px 0;
+}
+
+.Plus ,.plus{
+    color: #3bb549;
+    font-weight: 800;
+}
+.Mins ,.minus{
+    color: #ff0505;
+    font-weight: 800;
+
+}
+
+.list{
+    list-style: none;
+    padding: 0;
+    max-height: 120px;
+    overflow-y: auto;
+}
+
+.list li{
+    background-color: #e8e5e5;
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 5px;
+    border-right: 5px solid #2342db;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.list .plus span ,.list .minus span{
+padding-right: 5px;
+}
+.list .plus{
+    border-color: #3bb549;
+}
+
+.list .minus{
+    border-color: #ff0505;
+}
+.formControl label{
+ display: block;
+ margin-top: 5px;
+ margin-bottom: 3px;
+ font-weight: 500;
+}
+
+.formControl input{
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #2342db;
+    border-radius: 6px;
+    margin-top: 6px;
+}
+
+.btn{
+    width: 100%;
+    padding: 10px ;
+    margin-top: 10px;
+    background-color: #2342db;
+    color: white;
+    border: none;
+    font-size: 1rem;
+    border-radius: 7px;
+}
+
+.btn:hover{
+    background-color: #42519b;
+}
+
+.delete{
+    width: 25px;
+    height: 25px;
+    cursor: pointer;
+    font-weight: 800;
+    color: #ff0505;
+    background-color: white;
+    border: 2px solid #2342db ;
+}
