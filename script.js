@@ -20,6 +20,7 @@ function addTransaction(e) {
 
     text.value ="";
     amount.value=" ";
+    expensedate.value =" ";
     init();
 }
 
