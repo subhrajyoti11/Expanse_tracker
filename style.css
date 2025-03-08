@@ -12,12 +12,14 @@ body{
     justify-content: center;
     align-items: center;
     height: 100vh;
+    padding: 20px;
 }
 
 .container{
     background: white;
     padding: 20px;
     width: 400px;
+    max-width: 100%;
     border-radius: 10px;
     box-shadow: 0 0 10px rgb(108, 163, 189);
 }
@@ -32,7 +34,7 @@ h1{
     background-color:#2342db;
     color: #f6f8fa;
     border-radius: 8px;
-    padding-top: 5px;
+    padding-top: 10px;
 }
 
 .balance h1{
@@ -44,11 +46,13 @@ h1{
     display: flex;
     justify-content:space-between;
     margin: 20px 0;
+    flex-wrap: wrap;
 }
 
 .income , .expense{
     flex: 1;
     text-align: center;
+
 }
 
 .money{
@@ -132,4 +136,18 @@ padding-right: 5px;
     color: #ff0505;
     background-color: white;
     border: 2px solid #2342db ;
+}
+
+@media screen and (max-width:480px){
+    .container{
+        max-width: 100%;
+    }
+
+    .balance h1{
+        font-size: 1.5rem;
+    }
+
+    .btn{
+        font-family: 0.9rem;
+    }
 }
