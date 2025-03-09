@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
+
 *{
     margin: 0px;
     padding: 0px;
@@ -180,19 +181,34 @@ padding-right: 5px;
 }
 
 @media screen and (max-width:480px){
+<<<<<<< HEAD
     /* .container{
         max-width: 100%;
     }
      */
+=======
+    .container{
+        max-width: 100%;
+    }
+
+>>>>>>> b789c2170b5a4d4bf5b2d0c5ebd884e3abada06a
     .balance h1{
         font-size: 1.5rem;
     }
 
     .incomeExpense{
+<<<<<<< HEAD
         flex-direction: row;
+=======
+        flex-direction: column;
+>>>>>>> b789c2170b5a4d4bf5b2d0c5ebd884e3abada06a
     }
 
     .btn{
         font-family: 0.9rem;
     }
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> b789c2170b5a4d4bf5b2d0c5ebd884e3abada06a
