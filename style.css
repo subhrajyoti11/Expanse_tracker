@@ -22,19 +22,31 @@ body{
     max-width: 100%;
     border-radius: 10px;
     box-shadow: 0 0 10px rgb(108, 163, 189);
+    border-radius: 2px solid #2342db;
 }
 h1{
+    
     text-align: center;
     margin-bottom: 10px;
     
 }
+.heading h1{
+    background-color: whitesmoke;
+    width: 100%;
+    color:#112172;
+    box-shadow: 0 0 10px #31166d;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+}
 
 .balance{
     text-align: center;
-    background-color:#2342db;
+    background-color:#405dee;
     color: #f6f8fa;
     border-radius: 8px;
-    padding-top: 10px;
+    padding-top: 10px ;
+    margin-top: 20px;
+ border: 2px dotted;
 }
 
 .balance h1{
@@ -43,33 +55,59 @@ h1{
 }
 
 .incomeExpense{
+    
     display: flex;
     justify-content:space-between;
     margin: 20px 0;
     flex-wrap: wrap;
+    border-radius: 10px;
 }
 
-.income , .expense{
+.income {
+    margin-right: 10px;
+    background-color: #3bb549;
+    border-radius: 10px;
+    color: #f6f8fa;
     flex: 1;
     text-align: center;
+    border: 3px dashed;
+
+}
+.expense{
+    border-radius: 10px;
+    color: #f6f8fa;
+    flex: 1;
+    text-align: center;
+    border: 3px dashed;
 
 }
 
+.expense{
+  background-color: #ff0505;
+}
 .money{
     font-size: 1.5rem;
     margin: 5px 0;
 }
 
-.Plus ,.plus{
-    color: #3bb549;
+.Plus {
+    color:white ;
     font-weight: 800;
 }
-.Mins ,.minus{
-    color: #ff0505;
-    font-weight: 800;
 
+.plus{
+    color:#3bb549;
+    font-weight: 800;
+}
+.Mins {
+    color: #e7ebe7;
+    font-weight: 800;
 }
 
+.minus{
+    color:#ff0505;
+    font-weight: 800;
+}
 .list{
     list-style: none;
     padding: 0;
@@ -78,11 +116,11 @@ h1{
 }
 
 .list li{
-    background-color: #e8e5e5;
+    background-color:white;
     margin: 10px 0;
     padding: 10px;
     border-radius: 5px;
-    border-right: 5px solid #2342db;
+    border: 2px solid #2342db;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -92,7 +130,7 @@ h1{
 padding-right: 5px;
 }
 .list .plus{
-    border-color: #3bb549;
+    border-color:#3bb549;
 }
 
 .list .minus{
@@ -103,12 +141,14 @@ padding-right: 5px;
  margin-top: 5px;
  margin-bottom: 3px;
  font-weight: 500;
+ font-family:serif;
+ font-weight: 550;
 }
 
 .formControl input{
     width: 100%;
     padding: 8px;
-    border: 1px solid #2342db;
+    border: 2px dotted #2342db;
     border-radius: 6px;
     margin-top: 6px;
 }
@@ -133,22 +173,23 @@ padding-right: 5px;
     height: 25px;
     cursor: pointer;
     font-weight: 800;
-    color: #ff0505;
-    background-color: white;
-    border: 2px solid #2342db ;
+    color: white;
+    background-color: #ff0505;
+    border-radius: 50%;
+    
 }
 
 @media screen and (max-width:480px){
-    .container{
+    /* .container{
         max-width: 100%;
     }
-
+     */
     .balance h1{
         font-size: 1.5rem;
     }
 
     .incomeExpense{
-        flex-direction: column;
+        flex-direction: row;
     }
 
     .btn{
