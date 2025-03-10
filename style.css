@@ -86,7 +86,7 @@ body {
 }
 
 .trans h3{
-    color: rgb(234, 20, 234);
+    color: rgb(192, 31, 192);
     font-family: serif;
     font-weight: 500;
 
@@ -107,12 +107,12 @@ body {
 }
 
 .Mins {
-    color: #ff0505;
+    color: #c12626;
     font-weight: 800;
 }
 
 .minus {
-    color: #ff0505;
+    color: #c12626;
     font-weight: 800;
 }
 
@@ -148,16 +148,16 @@ body {
 }
 
 .list .minus {
-    border-color: #ff0505;
+    border-color: #d61d1d;
 }
 
 .formControl label {
   color: rgb(200, 202, 216);
-   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   font-family: serif;
     display: block;
     margin-top: 5px;
     margin-bottom: 3px;
-    font-weight: 400;
+    font-weight: 350;
 
 }
 
@@ -200,11 +200,18 @@ input[type=date]{
     background-color: #42519b;
 }
 #newtr{
-    color: rgb(234, 20, 234);
+    color: #e2e8edc4 ;
+    align-items: center;
+    justify-content: center;
     font-family: 'Times New Roman', Times, serif;
     font-weight: 400;
+    margin-left: 85px;
 }
 
+p{
+    color: rgb(191, 187, 187);
+    font-size: 0.8rem;
+}
 .delete {
     width: 25px;
     height: 25px;
