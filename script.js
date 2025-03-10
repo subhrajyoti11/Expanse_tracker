@@ -29,6 +29,8 @@ function addTransaction(e) {
     amount.value = "";
     expensedate.value = "";
     init();
+    
+    document.getElementById('viewPieChartBtn').hidden = false;
 }
 
 // Generate random ID
