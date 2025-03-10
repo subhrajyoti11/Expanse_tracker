@@ -1,13 +1,13 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
 
-*{
-    margin: 0px;
-    padding: 0px;
+* {
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
     font-family: "Poppins", sans-serif;
 }
 
-body{
+body {
     background-color: #051926;
     display: flex;
     justify-content: center;
@@ -16,49 +16,45 @@ body{
     padding: 20px;
 }
 
-.container{
+.container {
     background: white;
     padding: 20px;
     width: 400px;
     max-width: 100%;
     border-radius: 10px;
     box-shadow: 0 0 10px rgb(108, 163, 189);
-    border-radius: 2px solid #2342db;
+    border: 2px solid #2342db;
 }
-h1{
-    
-    text-align: center;
-    margin-bottom: 10px;
-    
-}
-.heading h1{
+
+.heading h1 {
     background-color: whitesmoke;
     width: 100%;
-    color:#112172;
+    color: #112172;
     box-shadow: 0 0 10px #31166d;
     font-weight: bold;
     font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    margin-bottom: 10px;
 }
 
-.balance{
+.balance {
     text-align: center;
-    background-color:#405dee;
+    background-color: #405dee;
     color: #f6f8fa;
     border-radius: 8px;
-    padding-top: 10px ;
+    padding-top: 10px;
     margin-top: 20px;
- border: 2px dotted;
+    border: 2px dotted;
 }
 
-.balance h1{
+.balance h1 {
     margin: 0;
-  font-style: 2.5rem;
+    font-size: 2.5rem;
 }
 
-.incomeExpense{
-    
+.incomeExpense {
     display: flex;
-    justify-content:space-between;
+    justify-content: space-between;
     margin: 20px 0;
     flex-wrap: wrap;
     border-radius: 10px;
@@ -72,52 +68,51 @@ h1{
     flex: 1;
     text-align: center;
     border: 3px dashed;
-
 }
-.expense{
+
+.expense {
     border-radius: 10px;
     color: #f6f8fa;
     flex: 1;
     text-align: center;
     border: 3px dashed;
-
+    background-color: #ff0505;
 }
 
-.expense{
-  background-color: #ff0505;
-}
-.money{
+.money {
     font-size: 1.5rem;
     margin: 5px 0;
 }
 
 .Plus {
-    color:white ;
+    color: white;
     font-weight: 800;
 }
 
-.plus{
-    color:#3bb549;
+.plus {
+    color: #3bb549;
     font-weight: 800;
 }
+
 .Mins {
     color: #e7ebe7;
     font-weight: 800;
 }
 
-.minus{
-    color:#ff0505;
+.minus {
+    color: #ff0505;
     font-weight: 800;
 }
-.list{
+
+.list {
     list-style: none;
     padding: 0;
     max-height: 120px;
     overflow-y: auto;
 }
 
-.list li{
-    background-color:white;
+.list li {
+    background-color: white;
     margin: 10px 0;
     padding: 10px;
     border-radius: 5px;
@@ -127,26 +122,29 @@ h1{
     align-items: center;
 }
 
-.list .plus span ,.list .minus span{
-padding-right: 5px;
-}
-.list .plus{
-    border-color:#3bb549;
+.list .plus span,
+.list .minus span {
+    padding-right: 5px;
 }
 
-.list .minus{
+.list .plus {
+    border-color: #3bb549;
+}
+
+.list .minus {
     border-color: #ff0505;
 }
-.formControl label{
- display: block;
- margin-top: 5px;
- margin-bottom: 3px;
- font-weight: 500;
- font-family:serif;
- font-weight: 550;
+
+.formControl label {
+    display: block;
+    margin-top: 5px;
+    margin-bottom: 3px;
+    font-weight: 500;
+    font-family: serif;
+    font-weight: 550;
 }
 
-.formControl input{
+.formControl input {
     width: 100%;
     padding: 8px;
     border: 2px dotted #2342db;
@@ -154,22 +152,23 @@ padding-right: 5px;
     margin-top: 6px;
 }
 
-.btn{
+.btn {
     width: 100%;
-    padding: 10px ;
+    padding: 10px;
     margin-top: 10px;
     background-color: #2342db;
     color: white;
     border: none;
     font-size: 1rem;
     border-radius: 7px;
+    cursor: pointer;
 }
 
-.btn:hover{
+.btn:hover {
     background-color: #42519b;
 }
 
-.delete{
+.delete {
     width: 25px;
     height: 25px;
     cursor: pointer;
@@ -177,38 +176,37 @@ padding-right: 5px;
     color: white;
     background-color: #ff0505;
     border-radius: 50%;
-    
 }
 
-@media screen and (max-width:480px){
-<<<<<<< HEAD
-    /* .container{
-        max-width: 100%;
-    }
-     */
-=======
-    .container{
+/* Pie Chart Container */
+.chart-container {
+    margin: 20px 0;
+    width: 100%;
+    max-width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Hide the second page by default */
+#page2 {
+    display: none;
+}
+
+/* Responsive Design */
+@media screen and (max-width: 480px) {
+    .container {
         max-width: 100%;
     }
 
->>>>>>> b789c2170b5a4d4bf5b2d0c5ebd884e3abada06a
-    .balance h1{
+    .balance h1 {
         font-size: 1.5rem;
     }
 
-    .incomeExpense{
-<<<<<<< HEAD
+    .incomeExpense {
         flex-direction: row;
-=======
-        flex-direction: column;
->>>>>>> b789c2170b5a4d4bf5b2d0c5ebd884e3abada06a
     }
 
-    .btn{
-        font-family: 0.9rem;
+    .btn {
+        font-size: 0.9rem;
     }
-<<<<<<< HEAD
 }
-=======
-}
->>>>>>> b789c2170b5a4d4bf5b2d0c5ebd884e3abada06a
