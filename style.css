@@ -9,6 +9,7 @@
 
 body {
     background-color:white;
+    color: white;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -29,7 +30,7 @@ body {
 .heading h1 {
     width: 100%;
     color: #c8c8cf;
-    box-shadow: 0 0 20px #280a76;
+    box-shadow: 0 0 20px #42519b;
     font-weight: bold;
     text-decoration: underline overline;
     font-family: 'Times New Roman', Times, serif;
@@ -48,12 +49,12 @@ body {
 }
 
 .balance h1 {
-    color:#d2bd20e1;
+    color:#c8d62ee1;
     margin: 0;
     font-size: 2rem;
 }
 .balance h2 {
-    color:#d2bd20e1;
+    color:#c8d62ee1;
     margin: 0;
     font-size: 1.7rem;
 }
@@ -86,7 +87,7 @@ body {
 }
 
 .trans h3{
-    color: rgb(192, 31, 192);
+    color: white;
     font-family: serif;
     font-weight: 500;
 
@@ -124,7 +125,7 @@ body {
 }
 
 .list li {
-    background-color: #19044f;
+    background-color: #1a0353;
     margin: 10px 0;
     padding: 10px;
     border-radius: 5px;
@@ -164,7 +165,7 @@ body {
 .formControl input {
     width: 100%;
     padding: 8px;
-    background-color: #19044f;
+    background-color: #0f042b;
     border: 1px solid #536196;
     border-radius: 6px;
     margin-top: 6px;
@@ -200,7 +201,7 @@ input[type=date]{
     background-color: #42519b;
 }
 #newtr{
-    color: #e2e8edc4 ;
+    color: white ;
     align-items: center;
     justify-content: center;
     font-family: 'Times New Roman', Times, serif;
