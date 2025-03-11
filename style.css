@@ -8,7 +8,7 @@
 }
 
 body {
-    background-color:white;
+    background-color:#c66b0a;
     color: white;
     display: flex;
     justify-content: center;
@@ -18,21 +18,21 @@ body {
 }
 
 .container {
-    background: rgb(15, 31, 73);
+    background: rgb(229, 237, 187);
     padding: 20px;
     width: 400px;
     max-width: 100%;
     border-radius: 10px;
-    box-shadow: 0 0 10px rgb(108, 163, 189);
-    border: 2px solid #190f88;
+    box-shadow: 0 0 10px rgb(224, 234, 164);
+    border: 2px solid #d2e093;
 }
 
 .heading h1 {
     width: 100%;
-    color: #c8c8cf;
-    box-shadow: 0 0 20px #42519b;
+    color: black;
+    box-shadow: 0 0 20px #dceb91;
     font-weight: bold;
-    text-decoration: underline overline;
+    text-decoration: underline;
     font-family: 'Times New Roman', Times, serif;
     text-align: center;
     margin-bottom: 10px;
@@ -44,17 +44,17 @@ body {
     border-radius: 8px;
     padding-top: 10px;
     margin-top: 20px;
-    border: 3px solid #d7bc10;
-    box-shadow:0 0 10px #070e25;
+    border: 3px solid #2363a8;
+    box-shadow:0 0 5px #2363a8;
 }
 
 .balance h1 {
-    color:#c8d62ee1;
+    color:#2363a8;
     margin: 0;
     font-size: 2rem;
 }
 .balance h2 {
-    color:#c8d62ee1;
+    color:#2363a8;
     margin: 0;
     font-size: 1.7rem;
 }
@@ -69,7 +69,7 @@ body {
 
 .income {
     margin-right: 10px;
-    box-shadow: 0 0 10px #070e25;
+    box-shadow: 0 0 5px #3bb549;
     border-radius: 10px;
     color:#3bb549;
     flex: 1;
@@ -79,11 +79,11 @@ body {
 
 .expense {
     border-radius: 10px;
-    color: #ff0505;
+    color: #e24545;
     flex: 1;
     text-align: center;
     border: 3px solid;
-    box-shadow: 0 0 10px #070e25;
+    box-shadow: 0 0 5px #e24545;
 }
 
 .trans h3{
@@ -108,12 +108,12 @@ body {
 }
 
 .Mins {
-    color: #c12626;
+    color: #e24545;
     font-weight: 800;
 }
 
 .minus {
-    color: #c12626;
+    color: #e24545;
     font-weight: 800;
 }
 
@@ -125,18 +125,18 @@ body {
 }
 
 .list li {
-    background-color: #1a0353;
+    background-color: rgb(229, 237, 187);
     margin: 10px 0;
     padding: 10px;
-    border-radius: 5px;
-    border: 1px solid #536196;
+    border-radius: 10px;
+    border: 2px solid #536196;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
 .list{
-    color:rgb(186, 188, 199);
+    color:rgb(28, 47, 154);
     font-size: 400;
 }
 .list .plus span,
@@ -149,7 +149,7 @@ body {
 }
 
 .list .minus {
-    border-color: #d61d1d;
+    border-color: #e24545;
 }
 
 .formControl label {
@@ -165,19 +165,19 @@ body {
 .formControl input {
     width: 100%;
     padding: 8px;
-    background-color: #0f042b;
-    border: 1px solid #536196;
+    background-color: #ebf5c3;
+    border: 1.7px solid #536196;
     border-radius: 6px;
     margin-top: 6px;
 }
 input::placeholder{
-    color: rgb(190, 184, 184);
+    color: rgb(50, 86, 137);
 }
 #text{
-    color: white;
+    color: rgb(189, 43, 43);
 }
 #amount{
-    color: white;
+    color: ;
 }
 
 .btn {
